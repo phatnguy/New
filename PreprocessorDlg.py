@@ -19,7 +19,7 @@ class PreprocessorDlg(QDialog):
         # Set up the user interface from Designer. 
         self.ui = Ui_PreprocessorDlg()
         self.ui.setupUi(self)
-        self.rownum = 50
+        self.rownum = 75
         self.colnum = 9  
         for i in range(self.rownum):
             for j in range(self.colnum):
